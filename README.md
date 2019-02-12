@@ -3,7 +3,7 @@
 import {Router} from 'koa-action-decorator'
 
 let router = Router({
-  controllerDir: `[controller目录`
+  controllerDir: `[controller目录]`
 })
 
 app.use(router.routes())
